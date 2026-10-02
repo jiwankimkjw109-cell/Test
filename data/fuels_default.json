@@ -1,0 +1,21 @@
+{
+  "source": "PRD.md 부록 A — 대표 조성(vol%, 건가스 기준). 실제 조성은 사업장·시기별로 다르므로 앱에서 수정하여 사용.",
+  "fuels": {
+    "LNG": {
+      "description": "액화천연가스 (대표값)",
+      "composition": {"CH4": 89.0, "C2H6": 8.5, "C3H8": 1.8, "n-C4H10": 0.6, "N2": 0.1}
+    },
+    "COG": {
+      "description": "코크스로 가스 (Coke Oven Gas), CmHn은 C2H4로 대표",
+      "composition": {"CH4": 27.0, "C2H4": 3.0, "H2": 57.0, "CO": 6.5, "CO2": 2.5, "N2": 3.5, "O2": 0.5}
+    },
+    "BFG": {
+      "description": "고로 가스 (Blast Furnace Gas)",
+      "composition": {"H2": 3.5, "CO": 23.0, "CO2": 21.5, "N2": 52.0}
+    },
+    "LDG": {
+      "description": "전로 가스 (Linz-Donawitz Gas)",
+      "composition": {"H2": 1.5, "CO": 63.0, "CO2": 17.0, "N2": 18.0, "O2": 0.5}
+    }
+  }
+}

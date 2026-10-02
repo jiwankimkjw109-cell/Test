@@ -1,0 +1,11 @@
+{
+  "source": "PRD.md 3.3 D-06 — 설비 유형별 권장 공기비 범위 (참고값, 사업장 기준에 맞게 수정)",
+  "caution_margin": 0.10,
+  "co_limit_ppm": 200,
+  "presets": [
+    {"id": "reheating_gas", "name": "가열로 (기체연료)", "air_ratio_min": 1.05, "air_ratio_max": 1.20},
+    {"id": "heat_treatment_gas", "name": "열처리로·소둔로 (기체연료)", "air_ratio_min": 1.05, "air_ratio_max": 1.25},
+    {"id": "boiler_gas", "name": "보일러 (기체연료)", "air_ratio_min": 1.05, "air_ratio_max": 1.20},
+    {"id": "custom", "name": "직접 입력", "air_ratio_min": 1.05, "air_ratio_max": 1.20}
+  ]
+}

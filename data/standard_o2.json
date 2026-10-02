@@ -1,0 +1,23 @@
+{
+  "source": "대기환경보전법 시행규칙 [별표 8] 대기오염물질의 배출허용기준 — 시설별 표준산소농도",
+  "notice": "아래 프리셋 값은 개발 단계의 잠정값이다. \"verify\": true 항목은 최신 법령(국가법령정보센터) 원문으로 확인한 뒤 수정할 것. 앱에서는 사용자가 직접 입력할 수 있다.",
+  "air_o2_pct": 21.0,
+  "presets": [
+    {"id": "boiler_gas", "name": "보일러 (기체연료)", "o2_std_pct": 4.0, "verify": true},
+    {"id": "boiler_liquid", "name": "보일러 (액체연료)", "o2_std_pct": 4.0, "verify": true},
+    {"id": "boiler_solid", "name": "보일러 (고체연료)", "o2_std_pct": 6.0, "verify": true},
+    {"id": "reheating_furnace", "name": "가열로·열처리로 (1차 금속)", "o2_std_pct": 11.0, "verify": true},
+    {"id": "sinter", "name": "소결로", "o2_std_pct": 15.0, "verify": true},
+    {"id": "coke_oven", "name": "코크스로", "o2_std_pct": 7.0, "verify": true},
+    {"id": "incinerator", "name": "소각시설", "o2_std_pct": 12.0, "verify": true},
+    {"id": "custom", "name": "직접 입력", "o2_std_pct": null, "verify": false}
+  ],
+  "pollutants": {
+    "NOx": {"name": "질소산화물 (NO2 환산)", "mw": 46.0055, "as": "NO2"},
+    "NO": {"name": "일산화질소", "mw": 30.0061},
+    "NO2": {"name": "이산화질소", "mw": 46.0055},
+    "CO": {"name": "일산화탄소", "mw": 28.0101},
+    "SO2": {"name": "황산화물 (SO2 환산)", "mw": 64.064},
+    "TSP": {"name": "먼지", "mw": null}
+  }
+}

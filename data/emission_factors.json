@@ -1,0 +1,15 @@
+{
+  "source": "PRD.md 부록 B",
+  "units": "tCO2/TJ (순발열량 기준)",
+  "factors": {
+    "LNG": {
+      "method": "fixed",
+      "value_tCO2_per_TJ": 56.1,
+      "reference": "IPCC 2006 Guidelines, Vol.2 Ch.2 Table 2.2 (Natural Gas, default)"
+    },
+    "BFG": {"method": "carbon_balance", "reference": "조성 기반 탄소수지: (CO + CO2 + Σx·CxHy) × 44.009 / 22.414 kg/Nm3"},
+    "COG": {"method": "carbon_balance", "reference": "조성 기반 탄소수지"},
+    "LDG": {"method": "carbon_balance", "reference": "조성 기반 탄소수지"},
+    "default": {"method": "carbon_balance", "reference": "사용자 정의 연료는 탄소수지로 계산"}
+  }
+}
